@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "#tempmin"
+                    },
+                    "score": "temp"
+                },
+                "max": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "#tempmax"
+                    },
+                    "score": "temp"
+                }
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick"
+                }
+            ]
+        }
+    ]
+}
