@@ -1,4 +1,7 @@
 
+# Register this pack
+scoreboard players set Angel.Core Registered.Datapacks 1
+
 tellraw @a {"text":"AngelCore Loaded Successfully","color":"yellow"}
 
 scoreboard objectives add temp dummy
